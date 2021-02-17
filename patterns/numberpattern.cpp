@@ -11,18 +11,18 @@ int main(){
     int n = 0;
     cin >> n ;
 
-    for (int i = 1; i <= n; i++) // n number of rows
+    for (int i = 1; i <= n; i++) 
     {
-        for (int j = 1; j <= n-i; j++) // each column contains  row number of columns      
+        for (int j = 1; j <= n-i; j++)    
         {
             cout << " ";
         }
-        for(int j = 1;j <=n; j++)
+        for(int j = 1;j <=i; j++)
         {
-            cout << "*";
+            cout << j << " ";
         }
         
-        cout << endl; // after end of each rowe
+        cout << endl; // after end of each row
         
     }
     

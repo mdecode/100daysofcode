@@ -1,4 +1,6 @@
 # ignore vscode folder
 .vscode
 
-.exe
+*.exe
+
+*.png
